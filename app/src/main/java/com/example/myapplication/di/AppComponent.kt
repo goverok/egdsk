@@ -6,7 +6,7 @@ import com.example.myapplication.MainActivity
 import dagger.BindsInstance
 import dagger.Component
 
-@Component(modules = [AppModule::class])
+@Component(modules = [AppModule::class, NetworkModule::class])
 interface AppComponent {
     fun inject(app: App)
     fun inject(activity: MainActivity)

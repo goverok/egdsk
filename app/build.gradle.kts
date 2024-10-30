@@ -53,4 +53,8 @@ dependencies {
 
     implementation(libs.dagger)
     kapt(libs.dagger.compiler)
+
+    implementation(libs.retrofit)
+    implementation(libs.gsonConverter)
+    implementation(libs.gson)
 }
